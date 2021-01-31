@@ -1,5 +1,5 @@
-
-for (let i = 0; i <= 50; i++){
+function fizzBang(num) {
+for (let i = 0; i <= num; i++){
     if ((i % 3 === 0) && (i % 5 === 0)){
         console.log(i + " Fizz-Bang!")
     } else if(i % 3 === 0){
@@ -9,3 +9,5 @@ for (let i = 0; i <= 50; i++){
         console.log(i + " Bang!");
         }   
 }
+}
+fizzBang(100);
